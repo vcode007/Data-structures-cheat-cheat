@@ -1,0 +1,105 @@
+ DATA STRUCTURES CHEAT SHEET 
+
+  
+
+1.Arrays 
+
+- Description: Contiguous memory locations used to store multiple items of the same type. 
+
+- Operations: 
+
+  - Access: `array[index]` 
+
+  - Insertion (at index `i`): Shift elements to right 
+
+  - Deletion (at index `i`): Shift elements to left 
+
+  
+
+  2. Linked Lists 
+
+- Description: Collection of nodes where each node points to the next node in the sequence. 
+
+- Operations: 
+
+  - Insertion: 
+
+    - At Beginning: Create a new node and make it the head. 
+
+    - At End: Traverse to the end and append the new node. 
+
+  - Deletion: 
+
+    - By Value: Traverse list, find node with value, and unlink it. 
+
+  - Traversal: Iterate through nodes sequentially. 
+
+  
+
+  3. Stacks 
+
+- Description: LIFO (Last In, First Out) structure where elements are added and removed from the same end, typically called the "top." 
+
+- Operations: 
+
+  - Push: Add an element to the top. 
+
+  - Pop: Remove the top element. 
+
+  - Peek: View the top element without removing it. 
+
+  
+
+  4. Queues 
+
+- Description: FIFO (First In, First Out) structure where elements are added at the rear and removed from the front. 
+
+- Operations: 
+
+  - Enqueue: Add an element to the rear. 
+
+  - Dequeue: Remove an element from the front. 
+
+  - Peek: View the front element without removing it. 
+
+  
+
+  5. Trees 
+
+- Description: Hierarchical data structure consisting of nodes connected by edges. 
+
+- Types: 
+
+  - Binary Trees: Each node has at most two children. 
+
+  - Binary Search Trees (BST): Binary tree where left child is lesser and right child is greater than the parent. 
+
+- Operations: 
+
+  - Insertion: Traverse tree, find appropriate position, and add node. 
+
+  - Deletion: Replace the node to be deleted with appropriate successor or predecessor. 
+
+  - Traversal: Inorder, Preorder, Postorder. 
+
+  
+
+  6. Graphs 
+
+- Description: Non-linear data structure consisting of nodes and edges where each node can point to multiple other nodes. 
+
+- Types: 
+
+  - Directed Graphs: Edges have direction. 
+
+  - Undirected Graphs: Edges have no direction. 
+
+- Operations: 
+
+  - Traversal: Depth First Search (DFS), Breadth First Search (BFS). 
+
+  - Shortest Path: Dijkstra's Algorithm, Bellman-Ford Algorithm. 
+
+  
+
+ 
